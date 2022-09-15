@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img {
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+}
+.timer {
+    font-size: 50px;
+    margin-top: -180px;
+}
+.areaBtn {
+    margin-top: 180px;
+    display: flex;
+}
+.button{
+    width: 150px;
+    padding: 15px 0px;
+    background-color: #FFF;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.button:hover {
+    opacity: 0.7;
+    color: #000;
+    transition: all 0.50s;
+}
